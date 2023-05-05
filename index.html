@@ -4,90 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="shortcut icon" href="loqo.jpg" type="image/x-icon" style="border-radius: 10px;">
-    <title>Azerbaijan Edits</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="WhatsApp Image 2023-05-05 at 09.37.43.jpeg" type="image/x-icon">
+    <title>Turan Youtube Birliği</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .marque{
+            background-color: aqua;
+        }
         html, body{
-            height: 100%;
-            width: 100%;
+            background-color: aqua;
+            weight: 100%;
         }
-        nav{
-            background-color:gray;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        img{
-            filter: drop-shadow(10px 10px 10px red);
-            transform: scale(3.0);
-            transform: rotate(0deg);
-            transition: .5s;
-        }
-        img:hover{
-            filter: drop-shadow(10px 10px 10px blue);
-            transform: scale(5.0);
-            transform: rotate(10deg);
-            transition: .5s;
+        .caousel-item{
+            height: 100px;
+            weight: 100px;
         }
         footer{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 20px;
-            filter: drop-shadow(10px 10px 10px blue);
-            transform: scale(3.0);
-            transform: rotate(0deg);
-            transition: .5s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
             text-align: center;
+            text-decoration: chartreuse;
+        }
+        .card{
+            filter: drop-shadow(10px 10px 10px red);
+            transform: scale(1.0);
+            transform: rotate(0deg);
+            transition: .4s;
+        }
+        .card:hover{
+             filter: contrast(50%); 
+             filter: grayscale(30%); 
+             filter: blur(5px); 
+             filter: hue-rotate(45deg); 
+            filter: drop-shadow(10px 20px 15px red); 
+        }
+        .img1{
+            height: 50px;
+            width: 50px;
         }
     </style>
 </head>
-<body class="bg-warning w-100%">
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid" width="100%" height="100%">
-          <a class="navbar-brand" href="#" >
-            <img src="loqo.jpg" alt="Logo" width="80" height="70" style="border-radius: 10px;" class="d-inline-block align-text-top" a-href="https://www.youtube.com/@AzerbaijanEdits/shorts">
-            <h1>Azerbaijan Edits</h1>
-          </a>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Turan Youtube Birliği</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Turan Youtube Birliği</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ana Səhifə</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Şəkillər</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Məlumat
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Yekun</a></li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Axtarmaq</button>
+              </form>
+            </div>
+          </div>
         </div>
       </nav>
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="WhatsApp Image 2023-05-03 at 07.27.33.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="WhatsApp Image 2023-05-05 at 09.35.28.jpeg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="WhatsApp Image 2023-05-05 at 09.37.43.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>        
+      </nav>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              TYB nin Quruluşu
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">TYB - 24 Nisan'da kurulmuş ve çok hızlı bir büyüme gerçekleştirmiş bir birlikdir
+                TYB nin anlamı ise şudur - Turan Youtube Birliği
+                TYB nin amaçlarında ilki en güçlü Birlik olmakdır ve 1. Hedefine çok kısa bir sürede ulaşdılar 2. Amaçları ise AYB birliğin yenmekdir ve bunu ise 2 Mayıs da başardılar ilk TGF ile vs sinde yenildiler fakat yenilmelerinin sebebi vardı TYB vs de 4 en güçlü Birlik ile tek başına savaşdı ve direnç gösterdi. .</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              TYB nin orta veziyetdeki gunleri ve qazandığı yarışları
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Ama sonda 4 birliye dayanamayıb kaybettiler ama bu onların ümidin yitirmedi ve bundan 1 gün sonra AYB habersiz bir şekilde TYB ile vs açmışdır ama bu vs nin süresi olmadığından kaybeden belli olmadı ve yarın ise TYB bunun intikamı olarak vs başlattı ve bu vs 1 saat sonra sona erdi ve AYB nin destekçiler ve botları olsa bile TYB tek başına kazandı ve ismini bütün birliklere yaydı. </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              TYB nin Indiki Günləri və Yüksəlməsi
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">TYB ilk günden bir sürü müttefik kazanmış olsada müttefikler THE nin tehtidinden korkarak TYB ye destek vermek yerine TYB nin düşmanlarına destek vermiştir ama yinede TYB ni satmayan tek müttefik birlik vardı o ise FS dir. TYB nin bütün vs lerinde onların yanında olan ve herzaman onlara destek vermişdiler. TYB ilk kurulduğu zamanlar AYB deki insanlara TYB ye katılmasını söyledi ama onlar TYB nin yenileceyini düşünerek bu teklifi kabul etmedi ve TYB baş komutanı Hazar teklifi kabul etmeyenlere şöyle diyordu "bu teklifimiz belirli bir süre geçerlidir.</div>
+          </div>
+        </div>
+      </div>
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
-            <img src="banner.jpg" class="card-img-top" alt="..." style="height: 250px; width: 100%;">
+            <img src="WhatsApp Image 2023-05-03 at 07.27.33.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Azerbaijan Edits-in YouTube Başlayışı</h5>
-              <p class="card-text">Azerbaijan Edits Ilk Olarak 9 Temmuz 2022 Tarihinde YouTube Katilmistir Eski Kanalı Yeni kapandığından yeni bir kanal açtı ve buydu ilk olarak videosunu 4 Ağustosta atmıştır. Doğum Gününden 2 gün sonra. </p>
+              <h5 class="card-title"></h5>
+              <p class="card-text">TYB - 24 Nisan'da kurulmuş ve çok hızlı bir büyüme gerçekleştirmiş bir birlikdir
+                TYB nin anlamı ise şudur - Turan Youtube Birliği
+                TYB nin amaçlarında ilki en güçlü Birlik olmakdır ve 1. Hedefine çok kısa bir sürede ulaşdılar 2. Amaçları ise AYB birliğin yenmekdir ve bunu ise 2 Mayıs da başardılar ilk TGF ile vs sinde yenildiler fakat yenilmelerinin sebebi vardı TYB vs de 4 en güçlü Birlik ile tek başına savaşdı ve direnç gösterdi.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="banner.jpg" class="card-img-top" alt="..." style="height: 250px; width: 100%;">
+            <img src="WhatsApp Image 2023-05-05 at 09.35.28.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Azerbaijan Edits-in YouTubede Gelişim Çağı</h5>
-              <p class="card-text">O Zamanlar Tarih kanalları arasınd bir oyun yayılmışıtı World Provinces O birinci bölümünü atmıştı.Ama o zamanlar 100-50 abonesi Olan bir kanal için çok iyi bir izlenmeydi.</p>
+              <h5 class="card-title"></h5>
+              <p class="card-text">Ama sonda 4 birliye dayanamayıb kaybettiler ama bu onların ümidin yitirmedi ve bundan 1 gün sonra AYB habersiz bir şekilde TYB ile vs açmışdır ama bu vs nin süresi olmadığından kaybeden belli olmadı ve yarın ise TYB bunun intikamı olarak vs başlattı ve bu vs 1 saat sonra sona erdi ve AYB nin destekçiler ve botları olsa bile TYB tek başına kazandı ve ismini bütün birliklere yaydı. </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="banner.jpg" class="card-img-top" alt="..." style="height: 250px; width: 100%;">
+            <img src="WhatsApp Image 2023-05-05 at 09.37.43.jpeg" class="card-img-top h-100 w-100" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Azerbaijan Edits Videolarının Patlama Çağı</h5>
-              <p class="card-text">O artık ikinci bölümü atmıştı ve 2.8 mln izlendi o bunu gördüğü zaman havalara uçmuştu.Çünkü küçük bir kanal için o çok büyük izlenmeydi.Oradan Tam 5k abone gelmiştir.</p>
+              <h5 class="card-title"></h5>
+              <p class="card-text">TYB ilk günden bir sürü müttefik kazanmış olsada müttefikler THE nin tehtidinden korkarak TYB ye destek vermek yerine TYB nin düşmanlarına destek vermiştir ama yinede TYB ni satmayan tek müttefik birlik vardı o ise FS dir..</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="banner.jpg" class="card-img-top" alt="..." style="height: 250px; width: 100%;">
+            <img src="WhatsApp Image 2023-05-05 at 09.19.38.jpeg" class="card-img-top " alt="...">
             <div class="card-body">
-              <h5 class="card-title">Azerbaijan Edits-in Şimdiki Hali</h5>
-              <p class="card-text">O günden Bu güne Kadar Video Yapa Yapa Geldik.Size son bir şey söylicem ben Youtube Başlarken Mahallede herkes dalga geçti kendi bilidiğinizi yapın ben öyle yaptım ve nerdeyim.</p>
+              <h5 class="card-title"></h5>
+              <p class="card-text">TYB nin bütün vs lerinde onların yanında olan ve herzaman onlara destek vermişdiler. TYB ilk kurulduğu zamanlar AYB deki insanlara TYB ye katılmasını söyledi ama onlar TYB nin yenileceyini düşünerek bu teklifi kabul etmedi ve TYB baş komutanı Hazar teklifi kabul etmeyenlere şöyle diyordu "bu teklifimiz belirli bir süre geçerlidir. AYB bize Karşı yenildiyinde teklif geçerli olmayacakdır." Ve onun dediyi gibi de olmuşdu AYB TYB nin karşısında yenilgiye uğramış di bazı AYB üyeleri bunu kabul etmese de AYB lideri kaybettiğini kabul edib TYB ni tebrik etmiştir.TYB - 24 Nisan'da kurulmuş ve çok hızlı bir büyüme gerçekleştirmiş bir birlikdir
+                TYB nin anlamı ise şudur - Turan Youtube Birliği
+                TYB nin amaçlarında ilki en güçlü Birlik olmakdır ve 1. Hedefine çok kısa bir sürede ulaşdılar 2. Amaçları ise AYB birliğin yenmekdir ve bunu ise 2 Mayıs da başardılar ilk TGF ile vs sinde yenildiler fakat yenilmelerinin sebebi vardı TYB vs de 4 en güçlü Birlik ile tek başına savaşdı ve direnç gösterdi. Ama sonda 4 birliye dayanamayıb kaybettiler ama bu onların ümidin yitirmedi ve bundan 1 gün sonra AYB habersiz bir şekilde TYB ile vs açmışdır ama bu vs nin süresi olmadığından kaybeden belli olmadı ve yarın ise TYB bunun intikamı olarak vs başlattı ve bu vs 1 saat sonra sona erdi ve AYB nin destekçiler.</p>
             </div>
           </div>
         </div>
       </div>
-      <footer>Designed By Azerbaijan Edits &copy;2023</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <img src="warning.png" alt="" class="img1"><h1 class="marque"> <marquee behavior="" direction="">TYB den Ehtiyatlı Olun</marquee></h1><img src="warning.png" alt="" class="img1">
+      <footer><h1>Designed by Omar Shahmuradov &copy;2023</h1></footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
